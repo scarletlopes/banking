@@ -1,0 +1,30 @@
+#welcome{
+    text-align: center
+}
+.dashboard{
+  font-style: unset;
+  font-size:30px;
+}
+.btn-group a {
+    background-color: rgb(54, 61, 55); 
+    border: 1px solid rgb(128, 143, 128);
+    color: white;
+    padding: 85px 197px; /* Some padding */
+    cursor: pointer; 
+    float: left; 
+    font-size:20px;
+  }
+  .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: #e48c28;
+  }

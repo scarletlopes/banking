@@ -1,0 +1,20 @@
+<nav class="navbar navbar-default bg-dark">
+    <div class="container-fluid">
+        
+      </div>
+    <div id="mySidenav" class="sidenav">
+        <h2 name="userinfo">Hello Username</h2>
+        <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+        <nav class="btn-group">
+            <td>
+               <a routerLink="/account" routerLinkActive="active">Account</a>
+               <a routerLink="/transfer" routerLinkActive="active">Transfer</a>
+             </td>
+             
+           </nav>
+      </div>
+      <div class="nav">
+      <span style="font-size:30px;cursor:pointer" name="open" (click)="openNav()"> &#9776;</span> 
+      </div>
+    
+  </nav>
